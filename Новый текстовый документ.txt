@@ -1,0 +1,18 @@
+interface IA    
+{
+void Show();    
+}
+interfaceIB    
+{void Show();    }
+interfaceIC    {void Show();    }
+class ExplicitRealization : IA, IB, IC    
+{
+void IA.Show()
+{ WriteLine(“Interface IA”); 
+}
+voidIB.Show()       
+ {           
+ WriteLine(“Interface IB”);       
+ }publicvoid Show()        
+{            
+WriteLine(“Interface IC”);        
